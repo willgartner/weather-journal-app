@@ -5,9 +5,8 @@ body{
 
 #app{
     display: grid;
-    grid-auto-rows: minmax(150px, auto);
-    /* grid-template-columns:  */
-    height:100vh;
+    grid-auto-rows: minmax(25px, auto);
+    /* height:100vh; */
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
@@ -17,7 +16,7 @@ body{
 }
 
 .holder{
-
+    
 }
 
 .entry{
@@ -73,6 +72,9 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    justify-self: center;
+    cursor: pointer;
+    display: block;
 }
 h1{
     font-size: 36px;
